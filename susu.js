@@ -1,4 +1,18 @@
-let display = document.getElementById("display")
+let display = document.getElementById("display");
+let main = document.getElementById("main");
+function changeColor() {
+    console.log('adsfsaa')
+    if (main.classList.contains("white")) {
+        main.classList.remove("white");
+        main.classList.add("black");
+        console.log('adsfsaa')
+    }
+    else {
+        main.classList.remove("black");
+        main.classList.add("white")
+
+    }
+}
 let calculatebhayo = 0;
 function addNumber(a) {
     if (calculatebhayo == 1) {

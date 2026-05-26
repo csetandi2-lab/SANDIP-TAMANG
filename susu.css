@@ -1,33 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg,#dde1ec,#d6dae2,#334155);
+   
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#maincalculator{
+.black {
+   
+    background-color: black;
+
+}
+
+.white {
+   
+    background-color: white;
+
+
+}
+
+#maincalculator {
     width: 350px;
     background-color: #1f2024;
     padding: 20px;
     border-radius: 25px;
-    box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
 }
 
-#inputcontainer{
+#inputcontainer {
     width: 100%;
     margin-bottom: 20px;
 }
 
-#inputcontainer input{
+#inputcontainer input {
     width: 100%;
     height: 80px;
     border: none;
@@ -38,16 +51,16 @@ body{
     font-size: 35px;
     text-align: right;
     padding-right: 15px;
-    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-#buttoncontainer{
+#buttoncontainer {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
-#buttoncontainer button{
+#buttoncontainer button {
     height: 65px;
     border: none;
     border-radius: 15px;
@@ -56,30 +69,30 @@ body{
     background-color: #334155;
     color: white;
     transition: 0.3s;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-#buttoncontainer button:hover{
+#buttoncontainer button:hover {
     transform: scale(1.05);
     background-color: #475569;
 }
 
-.orange{
+.orange {
     background-color: orange !important;
     color: white;
     font-weight: bold;
 }
 
-.orange:hover{
+.orange:hover {
     background-color: darkorange !important;
 }
 
-#unique{
+#unique {
     background-color: #22c55e;
     color: white;
     font-weight: bold;
 }
 
-#unique:hover{
+#unique:hover {
     background-color: #16a34a;
 }

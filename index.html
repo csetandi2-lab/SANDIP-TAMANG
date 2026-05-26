@@ -6,10 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="susu.css">
 </head>
-<body>
+<body id="main" class="black">
     <div id="maincalculator">
         <div id="inputcontainer">
-            <input type="text" id="display"value="">
+            <input type="text" id="display"value="" disabled>
         </div>
         <div id="buttoncontainer">
             <button class="orange" onclick="deleteall()">AC</button>
@@ -28,7 +28,7 @@
             <button onclick='addNumber("2")'>2</button>
             <button onclick='addNumber("3")'>3</button>
             <button class="orange" onclick='addNumber("+")'>+</button>
-            <button class="orange">N</button>
+            <button class="orange" onclick="changeColor()">N</button>
             <button onclick='addNumber("0")'>0</button>
             <button onclick='addNumber(".")'>.</button>
             <button id="unique" onclick='calculatelt()'>=</button>
